@@ -1,0 +1,194 @@
+/home/nurvtekc/soporte/app.js:2
+var app = express();
+          ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/nurvtekc/soporte/app.js:2:11)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/nurvtekc/soporte/app.js:2
+var app = express();
+          ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/nurvtekc/soporte/app.js:2:11)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/nurvtekc/soporte/app.js:2
+var app = express();
+          ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/nurvtekc/soporte/app.js:2:11)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/nurvtekc/soporte/app.js:2
+var app = express();
+          ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/nurvtekc/soporte/app.js:2:11)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/nurvtekc/soporte/app.js:2
+var app = express();
+          ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/nurvtekc/soporte/app.js:2:11)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/nurvtekc/soporte/app.js:19
+      if (err) throw err;
+               ^
+
+Error: Cannot enqueue Handshake after already enqueuing a Handshake.
+    at Protocol._validateEnqueue (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/mysql/lib/protocol/Protocol.js:221:16)
+    at Protocol._enqueue (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/mysql/lib/Connection.js:116:18)
+    at app.get (/home/nurvtekc/soporte/app.js:18:9)
+    at callbacks (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:173:5)
+    at Object.router [as handle] (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:33:10)
+/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.res.setHeader (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/connect/lib/patch.js:134:22)
+    at ServerResponse.res.set.res.header (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/response.js:595:10)
+    at ServerResponse.res.contentType.res.type (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/response.js:462:15)
+    at ServerResponse.res.send (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/response.js:128:14)
+    at Query.<anonymous> (/home/nurvtekc/soporte/app.js:29:13)
+    at Query.<anonymous> (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+ReferenceError: connection is not defined
+    at app.get (/home/nurvtekc/soporte/app.js:40:9)
+    at callbacks (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:173:5)
+    at Object.router [as handle] (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/connect/lib/proto.js:174:15)
+    at Object.expressInit [as handle] (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/middleware.js:30:5)
+    at next (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/connect/lib/proto.js:174:15)
+    at Object.query [as handle] (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/connect/lib/middleware/query.js:43:5)
+ReferenceError: connection is not defined
+    at app.get (/home/nurvtekc/soporte/app.js:40:9)
+    at callbacks (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:173:5)
+    at Object.router [as handle] (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/connect/lib/proto.js:174:15)
+    at Object.expressInit [as handle] (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/middleware.js:30:5)
+    at next (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/connect/lib/proto.js:174:15)
+    at Object.query [as handle] (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/connect/lib/middleware/query.js:43:5)
+ReferenceError: usuario is not defined
+    at app.get (/home/nurvtekc/soporte/app.js:55:17)
+    at callbacks (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:173:5)
+    at Object.router [as handle] (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/connect/lib/proto.js:174:15)
+    at Object.expressInit [as handle] (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/middleware.js:30:5)
+    at next (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/connect/lib/proto.js:174:15)
+    at Object.query [as handle] (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/connect/lib/middleware/query.js:43:5)
+ReferenceError: usuario is not defined
+    at app.get (/home/nurvtekc/soporte/app.js:55:17)
+    at callbacks (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:164:37)
+    at param (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:138:11)
+    at pass (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:173:5)
+    at Object.router [as handle] (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/router/index.js:33:10)
+    at next (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/connect/lib/proto.js:174:15)
+    at Object.expressInit [as handle] (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/express/lib/middleware.js:30:5)
+    at next (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/connect/lib/proto.js:174:15)
+    at Object.query [as handle] (/home/nurvtekc/nodevenv/soporte/10/lib/node_modules/connect/lib/middleware/query.js:43:5)
+/home/nurvtekc/soporte/app.js:64
+   var datos "i";
+             ^^^
+
+SyntaxError: Unexpected string
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/nurvtekc/soporte/app.js:64
+   var datos "i";
+             ^^^
+
+SyntaxError: Unexpected string
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/nurvtekc/soporte/app.js:64
+   var datos "i";
+             ^^^
+
+SyntaxError: Unexpected string
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)

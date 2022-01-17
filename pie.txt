@@ -1,0 +1,60 @@
+
+    </div>
+    </form>
+      <footer class="footer">
+        <button id="btntest" class="btn btn-lg btn-primary btn-block" type="submit" value="Submit">Evaluar</button>
+        <p>&copy; Cdoenlinea 2015</p>
+      </footer>
+ 
+    </div>
+
+    <script type="text/javascript">
+        function rt(valor){
+           
+           var regi = document.getElementById(valor);
+           regi.style.display = 'block';
+           
+        }
+        function rf(valor){
+           
+           var regi = document.getElementById(valor);
+           regi.style.display = 'none';
+           
+        }
+       
+       function r1(){
+           var divi = document.getElementById('r1');
+           var regi = document.getElementById('sr1');
+           regi.style.visibility = 'visible';
+           
+        }
+        function tomaTest(){
+           var divi = document.getElementById('test');
+           var regi = document.getElementById('registro');
+           divi.style.visibility = 'visible';
+         //  regi.style.visibility = 'hidden';
+        }
+        $(document).ready(function() {
+            $('#btnSignUp').click(function() {
+         
+                $.ajax({
+                    url: 'signUp',
+                    data: $('form').serialize(),
+                    type: 'POST',
+                    success: function(response) {
+                        var data = response;
+
+                        var parsed = JSON.parse(data);
+
+                        document.getElementById('base').innerHTML = parsed.html;
+                        console.log(response);
+                    },
+                    error: function(error) {
+                        console.log(error);
+                    }
+                });
+            });
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Registro y Test</title>
+ 
+    <link href="http://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="https://v4-alpha.getbootstrap.com/examples/narrow-jumbotron/narrow-jumbotron.css" rel="stylesheet">
+    <link href="../static/signup.css" rel="stylesheet">
+    <script src='../static/js/jquery-3.6.0.min.js'></script>
+    
+    
+  </head>
+ 
+  <body>
+ 
+    <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" ><a href="main">Home</a></li>
+            <li role="presentation"><a href="showSignUp">Registro</a></li>
+            <li role="presentation" class="active"><a href="showLogin">Ingreso</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Evaluar Cumplimiento Seguridad Datos Personales</h3>
+      </div>
+ 
+      <div id='registro' class="jumbotron jumbotron-fluid">
+       <div class="container-fluid">
+        <h1>Registro</h1>
+        <form class="form-signin">
+        <label for="inputName" class="sr-only">Nombre y Apellido</label>
+        <input type="name" name="inputName" id="inputName" class="form-control" placeholder="Nombres Apellidos" required autofocus>
+        <label for="inputEmail" class="sr-only">Direccion Email</label>
+        <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Direccion Email" required autofocus>
+        <label for="inputEmpresa" class="sr-only">Empresa</label>
+        <input type="name" name="inputEmpresa" id="inputEmpresa" class="form-control" placeholder="Nombre Organización" required>
+        <label for="inputTelefono" class="sr-only">Telefono</label>
+        <input type="name" name="inputTelefono" id="inputTelefono" class="form-control" placeholder="Nro Telefono" >
+        <label for="sectores" class="sr-only">Sector </label>
+        <select id="sectores" class="form-control" name="sectores" required>
+            <option value="Banca y Finanzas">Banca y Finanzas</option>
+            <option value="Seguros">Seguros</option>
+            <option value="Retail">Retail</option>
+            <option value="Servicios">Servicios</option>
+        </select>
+        <br>
+        <!-- button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="button">Test</button   -->
+        <button id="btntest" class="btn btn-lg btn-primary btn-block" onclick="tomaTest();" type="button">Test</button>
+        <div id="base"></div>
+      </form>
+      </div>
+ 
+    </div>
+    <div id="test" style="visibility:hidden" class="jumbotron jumbotron-fluid">
+        <div class="container-fluid">
+         <h1>Test de Evaluacion</h1>

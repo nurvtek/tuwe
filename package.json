@@ -1,0 +1,23 @@
+{
+     "name": "soporte",
+     "version": "1.0.0",
+     "descripcion": "Soporte",
+     "main": "app.js",
+     "scripts": {
+          "test": "echo \"Error: no se ha especificado\" && exit 1"
+     },
+     "dependencies": {
+          "body-parser": "*",
+          "ejs": "^3.1.6",
+          "express": "^4.17.1",
+          "express-session": "*",
+          "formidable": "^1.2.2",
+          "jade": "*",
+          "mysql": "^2.18.1",
+          "read-excel-file": "^5.2.20",
+          "req-flash": "*",
+          "router": "^1.3.5"
+     },
+     "author": "TNM",
+     "license": "ISC"
+}
